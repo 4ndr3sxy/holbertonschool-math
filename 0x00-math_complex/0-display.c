@@ -19,7 +19,7 @@ void display_complex_number(complex c)
 		}
 		else
 		{
-			if (c.im == 1)
+			if (c.im == -1)
 				printf(" - i");
 			else
 				printf(" - %gi", (c.im * -1));
