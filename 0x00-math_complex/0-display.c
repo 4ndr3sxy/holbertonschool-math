@@ -12,14 +12,14 @@ void display_complex_number(complex c)
 	{
 		if (c.im > 0)
 		{
-			if (abs(c.im) == 1)
+			if (c.im == 1)
 				printf(" + i");
 			else
 				printf(" + %gi", c.im);
 		}
 		else
 		{
-			if (abs(c.im) == 1)
+			if (c.im == 1)
 				printf(" - i");
 			else
 				printf(" - %gi", (c.im * -1));
