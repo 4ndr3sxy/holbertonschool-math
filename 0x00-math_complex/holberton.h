@@ -4,6 +4,11 @@
 #include <stdio.h>
 #include <math.h>
 
+/**
+ * struct complex - struct to number complex.
+ * @re: real number.
+ * @im: imaginary nymber.
+ */
 typedef struct complex
 {
 	double re;
